@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+header {
+    text-align: center;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    margin-top: 1em;
+    border-top: 1px solid black;
+}
+
+/* typography */
+strong {
+    font-family: 'Courier New', Courier, monospace;
+}

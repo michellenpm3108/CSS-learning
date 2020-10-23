@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Module 5 - Responsive Design</h1>
+            <h2>Steeping up our design</h2>
+        </header>
+        
+
+        <nav class="container container-flex">
+            <ul>
+            <li><a href="line-height">line-height and letter-spacing</a></li>
+            <li><a href="background-image.html">background-image</a></li>
+        </ul>
+        </nav>
+        
+
+        <main class="container">
+        <p>We've seen background-image, and how it creates repeating patterns that tile when the image is smaller than the space it fits.</p>
+        <p>We can do a lot to control our background images though!</p>
+        
+        <h2>background-position </h2>
+            <h3>Numerical values</h3>
+                <p>A single value will move it that much on both the x and y axis</p>
+                <p>If you include 2 values, the first will be on the x-axis, the second on the y-axis</p>
+            <h3>Keywords</h3>
+                <p>We can also assign keywords, such as <strong>top left</strong>, <strong>bottom center</strong>, <strong>center right</strong>, etc. This can be useful to control the position of the image when using <strong>background-size: cover</strong>.</P>
+
+        <h2>background-size</h2>    
+            <h3>Numerical values</h3>
+                <p>When giving it numerical values, we can control the exact size of our image.</p>
+            <h3>Keywords</h3>
+                    <ul>
+                        <li><strong>auto</strong> is the default, nothing will change </li>
+                        <li><strong>contain</strong> ensures that the entire image is visible. It might seem strange, but it can be used for something like a logo that's set as a background image, along with <strong>no-repeat </strong></li>
+                        <li><strong>cover</strong> will ensure that the image covers the entire space without repeating, but it will result in the image being cropped </li>
+                    </ul>
+               
+        <h2>background-repeat</h2>
+            <p>We can prevent our image from repeating, either at all, or having it only repeat along a single axis.</p>
+            <h3>Values</h3>
+                <ul>
+                    <li><strong>repeat</strong> - the default </li>
+                    <li><strong>no-repeat </strong>- the image will not repeat at all </li>
+                    <li><srong>repeat-x </srong>- it will only repeat on the x-axis </li>
+                    <li><strong>repeat-y</strong> - it will only repeat on the y-axis </li>
+                </ul>
+               
+        </main>
+    </body>
+</html>
