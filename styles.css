@@ -16,8 +16,14 @@ header {
 }
 
 main {
-    margin-top: 1em;
     border-top: 1px solid black;
+}
+.note {
+    background: yellow;
+    padding: 1em;
+    width: 50%;
+    margin: 1em auto;
+    box-sizing: border-box;
 }
 
 /* typography */
